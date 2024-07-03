@@ -1,0 +1,139 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav{
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            border: 1px solid rgb(220, 217, 217);
+            box-shadow: 0 2px 10px 0 rgba(48, 48, 48, 0.3);
+            position: sticky;
+            top: 0px;
+        }
+        nav span{
+            font-weight: 700;
+            font-size: larger;
+            margin-right: 344px;
+            color: darkviolet;
+        }
+        nav a{
+            font-size: larger;
+            text-decoration: none;
+            padding: 10px;
+
+        }
+        nav a:hover{
+            text-decoration: underline;
+            position: relative;
+            bottom: 3px; 
+        }
+        nav button{
+            padding: 7px;
+            margin-right: 10px;
+            font-size: larger;
+            color: rgb(255, 255, 255);
+            background-color: darkviolet;
+            border-radius: 10px;
+            border: none;
+            
+        }
+        nav button:hover{
+            background-color: rgb(109, 4, 154);
+        }
+        nav button:visited{
+            border: 3px solid rgb(145, 112, 158);
+        }
+        h1{
+            font-size: 40px;
+        }
+        .colorblue{
+            color: darkviolet;
+
+        }
+        h2{
+            text-align: center;
+            padding: 30px;
+        }
+        .Recommendedcourses{
+            display: flex;
+            flex-direction: row;
+            row-gap: 30px;
+            column-gap: 50px;
+            justify-content: center;
+
+        }
+        .box{
+           border: 2px solid rgb(196, 194, 194);
+           box-shadow: 2px 2px 2px rgb(156, 154, 154);
+           width: 300px;
+           height:fit-content;
+        border-radius: 15px;
+        
+        }
+        /* .box1,.box2,.box3{
+        display: inline-block;
+        margin: 70px 70px 70px 70px;
+        } */
+        
+        
+        .image img{
+            width:100%;
+            border-radius: 15px 15px 0px 0px;
+        }
+        section{
+            padding: 20px;
+        }
+        .content p{
+            min-height: 150px;
+            padding: 10px;
+            word-spacing: 3px;
+        }
+        .button {
+            text-align: center;
+            padding: 10px;
+            
+        }
+        .button button{
+            padding: 8px;
+            border-radius: 10px;
+            color: white;
+            background-color: darkviolet;
+            border: none;
+        }
+        .button button:hover{
+            background-color:  rgb(73, 0, 73);
+            box-shadow: 2px 2px 3px gray;
+        }
+        footer  {
+            text-align: center;
+            padding: 10px 10px 10px 20px;
+            background-color: #edeaea;
+            box-shadow: 0 -1px 5px 0 rgb(0, 0, 0, .3);
+        }
+        footer span img {
+            width: 30px;
+            margin-right: 10px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        footer b {
+            margin-right: 5px;
+        }
+        @media screen and (max-width:455px){
+            .Recommendedcourses{
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            justify-content: center;
+
+        }
+
+            
+        }
+        
+
